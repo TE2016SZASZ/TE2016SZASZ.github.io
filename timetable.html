@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <title>Project</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        
+        
+        <script>
+    function showPictureContent1(){
+        document.getElementById("picture-def").classList.remove("default");
+        document.getElementById("picture-1").classList.add("becomeVisiblePicture");
+        document.getElementById("picture-2").classList.remove("becomeVisiblePicture");
+        document.getElementById("picture-3").classList.remove("becomeVisiblePicture");
+        document.getElementById("picture-4").classList.remove("becomeVisiblePicture");
+    }   
+    function showPictureContent2(){
+        document.getElementById("picture-def").classList.remove("default");
+        document.getElementById("picture-1").classList.remove("becomeVisiblePicture");
+        document.getElementById("picture-2").classList.add("becomeVisiblePicture");
+        document.getElementById("picture-3").classList.remove("becomeVisiblePicture");
+        document.getElementById("picture-4").classList.remove("becomeVisiblePicture");
+    }    
+    function showPictureContent3(){
+        document.getElementById("picture-def").classList.remove("default");
+        document.getElementById("picture-1").classList.remove("becomeVisiblePicture");
+        document.getElementById("picture-2").classList.remove("becomeVisiblePicture");
+        document.getElementById("picture-3").classList.add("becomeVisiblePicture");
+        document.getElementById("picture-4").classList.remove("becomeVisiblePicture");
+    }    
+    function showPictureContent4(){
+        document.getElementById("picture-def").classList.remove("default");
+        document.getElementById("picture-1").classList.remove("becomeVisiblePicture");
+        document.getElementById("picture-2").classList.remove("becomeVisiblePicture");
+        document.getElementById("picture-3").classList.remove("becomeVisiblePicture");
+        document.getElementById("picture-4").classList.add("becomeVisiblePicture");
+    } 
+        </script>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </head>
+
+    <body>
+<div class="timetable-body">
+ <nav class="navbar navbar-expand-lg">
+       <a class="navHome nav-item" href="index.html">Home</a>
+     <div class = "nav-logos">
+            <img src="bbte_logo.png" class="nav-logo">
+            <img src="fsega_logo.png" class="nav-logo">
+         </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="members.html">Members</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="conferences.html">Dissemination</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link active" href="timetable.html">Timetable<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+     
+
+</nav>
+<div class = "row no-gutters timetable-row">
+    <div class = "col-md-1 timetable-1"></div>
+    <div class = "col-md-5 timetable-5">
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" onclick="showPictureContent1()">
+            <b>A1.</b> Interdisciplinary analysis of the literature 
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+          <b>Phase deadline: 31/12/2018</b><br>
+        <b>(A1.1)</b> Compilation of a list containing relevant scientific articles based on keywords connected to the main objective, and to the four detailed objectives of this research
+          <hr>
+          <b>(A1.2)</b> Analysis of the results of relevant articles and the compilation of a working file containing all relevant information
+          <hr>
+          <b>(A1.3)</b> Exact definition of the research framework and creating a case study interview protocol based on the findings of the literature review 
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" onclick="showPictureContent2()">
+           <b>A2.</b> In-depth case study research 
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+          <b>Phase deadline: 31/12/2019</b><br>
+        <b>(A2.1)</b> Selecting and contacting MNC subsidiaries in Romania, presenting the research and requesting permission to carry out the case study research at 3-5 case companies 
+          <hr>
+          <b>(A2.2)</b> Carrying out interviews, collection of field data at participating case companies and their local suppliers
+          <hr>
+          <b>(A2.3)</b> Creation of a database of textual data to register the information acquired during case study research
+          <hr>
+          <b>(A2.4)</b> Analysis of case study data to identify organizational practices and characteristics influencing the knowledge transfer process as proposed in the detailed objectives
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" onclick="showPictureContent3()">
+           <b>A3.</b> Survey study 
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+          <b>Phase deadline: 9/10/2020</b><br>
+        <b>(A3.1)</b> Cooperation with a firm specialized in market studies
+          <hr>
+          <b>(A3.2)</b> Exact definition of target population in Romania, administration of questionnaires, and the collection of responses from participants
+          <hr>
+          <b>(A3.3)</b> Collecting survey data on international level through the network of the IMSS 
+          <hr>
+          <b>(A3.4)</b> Creating and joining data for an international database containing survey responses
+          <hr>
+          <b>(A3.5)</b> Carrying out statistical analysis using the data collected to generalize the link between organizational practices, knowledge characteristics and knowledge transfer
+      </div>
+    </div>
+  </div>
+    <div class="card">
+    <div class="card-header" id="headingFour">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" onclick="showPictureContent4()">
+          <b> A4.</b> Dissemination of results  
+        </button>
+      </h2>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+          <b>Phase deadline: 9/10/2020</b><br>
+        <b>(A4.1)</b> Participation on the conferences described in this section
+          <hr>
+          <b>(A4.2)</b> Writing and submitting two scientific papers in internationally recognized journals and further two papers in regional journals
+          <hr>
+          <b>(A4.3)</b> Continuous dissemination of partial and final results via the webpage of the project, making them openly accessible for interested parties 
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+    <div class = "col-md-1 timetable-1">
+    
+    </div>
+    <div class = "col-md-4 timetable-4">
+        <img src="another-data.png" class="timetable-img default" id="picture-def">
+        <img src="another-data.png" class="timetable-img" id="picture-1">
+        <img src="data-col.png" class="timetable-img" id="picture-2">
+        <img src="sync.png" class="timetable-img" id="picture-3">
+        <img src="presentation_png.png" class="timetable-img" id="picture-4">
+    
+    </div>
+    <div class = "col-md-1 timetable-1"></div>
+    </div>    
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        
+</body>
+    
+
+</html>

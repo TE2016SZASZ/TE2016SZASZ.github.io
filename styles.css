@@ -1,0 +1,444 @@
+html{
+    width: 100%;
+    background: #d1d1e0;
+}
+.navbar{
+    background:  #2e4053;
+    width: 100%;
+}
+
+.nav-link{
+    color: #d1d1e0;
+}
+.nav-item{
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: 0.5s;
+}
+.navHome{
+    padding: 5px;
+    color: #d1d1e0;
+    font-size: 20px;
+    font-weight:700;
+}
+.navbar-toggler-icon{
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+}
+
+.navbar-toggler:hover{
+    background: #d1d1e0;
+    color: black;
+    border-radius: 10%;
+}
+.navHome:hover{
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: 0.5s;
+    border-radius:10%;
+    background:  #d1d1e0;
+}
+.nav-item:hover{
+    background:  #d1d1e0;
+    border-radius: 20%;
+    color: black;
+}
+.nav-link:hover{
+    color: black;
+}
+.images-logo{
+    max-width: 100px;
+    max-height: 100px;
+}
+.logos{
+    position: relative;
+    text-align: right;
+    margin-right: 20px;
+    
+}
+.nav-logos{
+    align-content: center;
+    display: none;
+}
+.nav-logo{
+    width: 40px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+    .nav-logos{
+    display: contents;
+  }
+    .logos{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+/* Members */
+
+.img-thumbnail{
+    filter:saturate(1%);
+    transition:0.5s;
+    background: #2e4053;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.img-thumbnail:hover{
+    filter: none;
+}
+.img-thumbnail:active{
+    filter: none;
+}
+.row.members-row{
+    padding: 5%;
+}
+.membersBody{
+    background:  #d1d1e0;
+}
+h6{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.container-fluid{
+    display: none;
+    background-color: #d1d1e0;
+}
+.member-caption-row{
+    background: #d1d1e0;
+    padding: 20px 15px 10px 15px;
+    width: 100%;
+}
+.member-image{
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 15px;
+    border: 5px white solid;
+    background-color: #d1d1e0;
+    
+}
+.memberName{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: sans;
+    text-shadow: 2px 2px grey;
+}
+.col-md-5{
+    background-color: #2e4053;
+    padding: 20px;
+}
+.members-container{
+    padding: 5px;
+    align-content: center;
+}
+hr{
+    width: 50%;
+    color: #2e4053;
+    
+}
+.becomeVisible{
+    display: block;
+}
+.btn-info{
+    border-radius: 5px;
+    background-color: #2e4053;
+    margin: 5px;
+    transition: 0.5s;
+}
+.btn-info:hover{
+    background-color: #d1d1e0;
+    color:black;
+    border-radius: 15px;
+}
+.members-text{
+    background-color: white;
+    margin: 0px 15px;
+    border-radius: 15px;
+    box-shadow: 4px 5px #bfbfbf;
+    text-align: center;
+    color: black;
+    
+}
+.memberInfo{
+    color: black;
+    list-style-type: none;
+    text-align: left;
+}
+.memberInfo h2{
+    margin: 5px;
+    padding: 10px;
+}
+.reference-logos{
+    max-width: 150px;
+    text-align: left;
+}
+.reference-logo{
+    max-width: 80px;
+    height: 40px;
+    padding: 5px;
+    margin: 2px;
+    
+}
+.reference-logo.fsega{
+    background-clip: red;
+}
+.members-text ul{
+    margin: 0px;
+    padding: 0;
+}
+.btn-primary{
+    background-color: #2e4053;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.5s;
+}
+.btn-primary:hover{
+    background-color: #d1d1e0;
+    color:black;
+    border-radius: 15px;
+}
+li h2{
+    font-size: 20px;
+    margin: 0px;
+}
+.btn-link{
+    border-radius: 5px;
+    background-color: white;
+    margin: 5px;
+    transition: 0.5s;
+}
+.btn-link:hover{
+    background-color: #d1d1e0;
+    color: white;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .thumbnail h6{
+    width: 100%;
+    font-size: 15px;
+  }
+    .title-text{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainText{
+    background: #d1d1e0;
+    width: 100%;
+    height: auto;
+}
+.row{
+    display:inline-flex;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 0;
+}
+.col-md-12{
+    position: absolute;
+    padding: 5px;
+    color: #d1d1e0;
+    text-shadow: 2px 1px black;
+    font-size: 2rem;
+}
+.row img{
+    image-resolution: from-image;
+    width: inherit;
+    max-height: 640px;
+}
+h1{
+    padding: 4%;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 1px rgba(0,0,0,0.3);
+}
+h2{
+    padding: 20px;
+    color: black;
+}
+p{
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+.title img{
+    width:100%;
+}
+.publications a{
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:600;
+}
+.col-md-6{
+    width: 100%;
+    align-content:stretch;
+}
+.index-element{
+    background: linear-gradient(#2e4053, #d1d1e0);
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 4px 5px #bfbfbf;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+.conferencesText{
+    padding: 20px;
+    background-color: #d1d1e0;
+}
+.conference-element{
+    background: #f2f2f2;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 4px 5px #bfbfbf;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.conf-logo-box{
+    max-width: 100px;
+    height: 100px;
+}
+.conf-logo{
+    height: 90px;
+    width: 70px;
+}
+.publication-text{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+/* ###### Timetable ###### */
+.timetable-body{
+    background-color: #d1d1e0;
+}
+.timetable-5{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 5px #1b2631;
+}
+.timetable-1{
+    background-color: #d1d1e0;
+}
+.timetable-row{
+    background-color: #d1d1e0;
+}
+.timetable-4{
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 5px #1b2631;
+    background-color: #2e4053;
+    padding: 20px;
+}
+.timetable-img{
+    padding: 10px;
+    transition: 1s;
+    display: none;
+}
+.timetable-img.default{
+    padding: 10px;
+    transition: 1s;
+    display: block;
+}
+.becomeVisiblePicture{
+    display: block;
+    transition:1s;
+}
+.accordion{
+    padding: 10px;
+}
+.btn-link.collapsed{
+    text-decoration: none;
+    color: #2e4053;
+    border: 2px #2e4053 solid;
+}
+.btn-link{
+    text-decoration: none;
+    color: #2e4053;
+    border: 2px #2e4053 solid;
+}
+.btn-link:hover{
+    text-decoration: none;
+    color: #2e4053;
+    font-size:800;
+}
+
+.card-body{
+    color: #2e4053;
+    font-size: 600;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
