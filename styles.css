@@ -336,6 +336,7 @@ p{
     text-align: center;
     color: white;
     width: 100%;
+	margin: 15px;
 }
 .conf-logo-box{
     max-width: 100px;
